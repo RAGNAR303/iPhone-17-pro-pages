@@ -1,27 +1,31 @@
 import { useState } from "react";
 import Card from "./Card";
 import Button from "./Button";
+import iphoneBlue from "../assets/iphone-blue.jpg";
+import iphoneOrage from "../assets/iphone-orange.jpg";
+import iphoneSilver from "../assets/iphone-silver.jpg";
+import smartphone from "../assets/smartphone.png";
 
 function ColorsPhone() {
   const colors = [
     {
       id: "blue",
       name: "Titânio Azul",
-      image: "../../src/assets/iphone-blue.jpg",
+      image:  iphoneBlue ,
       color: "bg-blue-500",
       text: "text-blue-500",
     },
     {
       id: "silver",
       name: "Titânio Natural",
-      image: "../../src/assets/iphone-silver.jpg",
+      image:  iphoneOrage ,
       color: "bg-gray-100",
       text: "text-gray-100",
     },
     {
       id: "orange",
       name: "Titânio Laranja",
-      image: "../../src/assets/iphone-orange.jpg",
+      image: iphoneSilver ,
       color: "bg-orange-500",
       text: "text-orange-500",
     },
@@ -96,11 +100,7 @@ function ColorsPhone() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-7" id="Buy">
           {models.map((model, index) => (
             <Card variant={"border"} key={index}>
-              <img
-                className="w-6 h-6"
-                src="../../src/assets/smartphone.png"
-                alt="smartphone"
-              />
+              <img className="w-6 h-6" src={smartphone} alt="smartphone" />
               <h4 className="font-bold ">{model.name}</h4>
               <p className="text-gray-500 text-[14px]">
                 Tela {model.screen} com ProMotion 120Hz e Always-On display

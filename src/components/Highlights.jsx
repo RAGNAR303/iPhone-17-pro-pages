@@ -1,5 +1,8 @@
 import Card from "./Card";
-
+import titaniumDesign from "../assets/titanium-design.jpg";
+import iosFeatures from "../assets/ios-features.jpg";
+import A19pro from "../assets/A19pro.jpg";
+import shellTitanio from "../assets/shell-titânio.webp";
 function Highlights() {
   return (
     <section id="Design" className="py-6 px-6 flex flex-col justify-center">
@@ -15,7 +18,7 @@ function Highlights() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5  ">
           <Card variant={"default"} className="text-center">
             <img
-              src="../../src/assets/titanium-design.jpg"
+              src={titaniumDesign}
               alt="titanium-design"
               className="rounded-2xl mb-4"
             />
@@ -29,7 +32,7 @@ function Highlights() {
           </Card>
           <Card variant={"default"}>
             <img
-              src="../../src/assets/ios-features.jpg"
+              src={iosFeatures}
               alt="ios-features"
               className="rounded-2xl mb-4"
             />
@@ -46,11 +49,7 @@ function Highlights() {
             A19 Pro
           </h3>
           <p className="mb-4">O chip mais poderoso em um smartphone</p>
-          <img
-            src="../../src/assets/A19pro.jpg"
-            alt="chip-a18-pro"
-            className="rounded-2xl"
-          />
+          <img src={A19pro} alt="chip-a18-pro" className="rounded-2xl" />
           <ul className="space-y-3 text-gray-300">
             <li>- CPU 20% mais rápida</li>
             <li>- GPU 25% mais eficiente</li>
@@ -58,7 +57,7 @@ function Highlights() {
             <li>- Ray Tracing acelerado por hardware</li>
           </ul>
         </Card>
-        <div className="flex justify-center gap-3 items-center flex-col w-full">
+        <div className="flex justify-center gap-3 items-center flex-col w-full mt-10">
           <h3 className="text-3xl md:text-4xl font-bold text-gradient">
             Estrutura unibody. Eles têm a força.
           </h3>
@@ -70,7 +69,7 @@ function Highlights() {
             bateria e a durabilidade.
           </p>
           <img
-            src="../../src/assets/shell-titânio.webp"
+            src={shellTitanio}
             alt="shell-titânio"
             className="rounded-2xl w-[70%]"
           />
