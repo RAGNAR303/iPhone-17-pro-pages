@@ -7,21 +7,21 @@ function ColorsPhone() {
     {
       id: "blue",
       name: "Titânio Azul",
-      image: "/public/assets/iphone-blue.jpg",
+      image: "../../src/assets/iphone-blue.jpg",
       color: "bg-blue-500",
       text: "text-blue-500",
     },
     {
       id: "silver",
       name: "Titânio Natural",
-      image: "/public/assets/iphone-silver.jpg",
+      image: "../../src/assets/iphone-silver.jpg",
       color: "bg-gray-100",
       text: "text-gray-100",
     },
     {
       id: "orange",
       name: "Titânio Laranja",
-      image: "/public/assets/iphone-orange.jpg",
+      image: "../../src/assets/iphone-orange.jpg",
       color: "bg-orange-500",
       text: "text-orange-500",
     },
@@ -98,7 +98,7 @@ function ColorsPhone() {
             <Card variant={"border"} key={index}>
               <img
                 className="w-6 h-6"
-                src="../../public/assets/smartphone.png"
+                src="../../src/assets/smartphone.png"
                 alt="smartphone"
               />
               <h4 className="font-bold ">{model.name}</h4>

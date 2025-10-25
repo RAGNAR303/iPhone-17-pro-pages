@@ -15,7 +15,7 @@ function Highlights() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5  ">
           <Card variant={"default"} className="text-center">
             <img
-              src="../../public/assets/titanium-design.jpg"
+              src="../../src/assets/titanium-design.jpg"
               alt="titanium-design"
               className="rounded-2xl mb-4"
             />
@@ -29,7 +29,7 @@ function Highlights() {
           </Card>
           <Card variant={"default"}>
             <img
-              src="../../public/assets/ios-features.jpg"
+              src="../../src/assets/ios-features.jpg"
               alt="ios-features"
               className="rounded-2xl mb-4"
             />
@@ -47,7 +47,7 @@ function Highlights() {
           </h3>
           <p className="mb-4">O chip mais poderoso em um smartphone</p>
           <img
-            src="./../../public/assets/A19pro.jpg"
+            src="../../src/assets/A19pro.jpg"
             alt="chip-a18-pro"
             className="rounded-2xl"
           />
@@ -70,7 +70,7 @@ function Highlights() {
             bateria e a durabilidade.
           </p>
           <img
-            src="../../public/assets/shell-titânio.webp"
+            src="../../src/assets/shell-titânio.webp"
             alt="shell-titânio"
             className="rounded-2xl w-[70%]"
           />

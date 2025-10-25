@@ -4,7 +4,7 @@ function Hero() {
       <div className="absolute top-18 bottom-0 left-0 right-0 z-0 ">
         <img
           className="object-cover opacity-90 w-full h-full "
-          src="./../../public/assets/hero.jpg"
+          src="../../src/assets/hero.jpg"
           alt="iphone"
         />
       </div>
