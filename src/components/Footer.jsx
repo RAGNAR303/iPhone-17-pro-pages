@@ -22,7 +22,7 @@ function Footer() {
 
   return (
     <footer className="bg-gray-800/80 border-t-2 border-gray-800 backdrop-blur-2xl w-full flex items-center justify-center ">
-      <div className="flex flex-col w-[90%] md:w-[70%]">
+      <div className="flex flex-col w-[90%] md:w-[70%] mt-5">
         <section className="grid grid-cols-1 md:grid-cols-4 ">
           {sections.map((sections, index) => (
             <div key={index} className="flex flex-col gap-3 p-2 md:py-7 ">
@@ -39,7 +39,7 @@ function Footer() {
         </section>
         <div className="flex gap-4 flex-wrap-reverse text-center md:text-left justify-center md:justify-between text-gray-400 text-[13px] font-medium border-t border-gray-800 py-6">
           <div>
-            <p>Copyright 2025 Apple Inc. Todos os diretos reservados</p>
+            <p>Copyright&copy; 2025 Apple Inc. Todos os diretos reservados</p>
             <p className="text-[12px] mt-4  text-gray-500">
               Site criado para fins educativos - Aula do Youtube
             </p>

@@ -1,5 +1,5 @@
 import { ArrowDownIcon } from "@phosphor-icons/react";
-import iphoneHero from "../assets/hero.jpg";
+import iphoneHero from "../../public/assets/hero.jpg";
 
 function Hero() {
   return (
@@ -9,6 +9,7 @@ function Hero() {
           className="object-cover opacity-90 w-full  md:w-full "
           src={iphoneHero}
           alt="iphone"
+          loading="lazy"
         />
       </div>
       <div className="absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/80 "></div>

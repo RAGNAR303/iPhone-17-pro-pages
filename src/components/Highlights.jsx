@@ -1,8 +1,8 @@
 import Card from "./Card";
-import titaniumDesign from "../assets/titanium-design.jpg";
-import iosFeatures from "../assets/ios-features.jpg";
-import A19pro from "../assets/A19pro.jpg";
-import shellTitanio from "../assets/shell-titânio.webp";
+import titaniumDesign from "../../public/assets/titanium-design.jpg";
+import iosFeatures from "../../public/assets/ios-features.jpg";
+import A19pro from "../../public/assets/A19pro.jpg";
+import shellTitanio from "../../public/assets/shell-titânio.webp";
 function Highlights() {
   return (
     <section id="Design" className="py-6 px-6 flex flex-col justify-center">
@@ -21,6 +21,7 @@ function Highlights() {
               src={titaniumDesign}
               alt="titanium-design"
               className="rounded-2xl mb-4"
+              loading="lazy"
             />
             <h3 className="text-xl md:text-2xl font-bold text-gradient text-center">
               Titânio Premium
@@ -35,6 +36,7 @@ function Highlights() {
               src={iosFeatures}
               alt="ios-features"
               className="rounded-2xl mb-4"
+              loading="lazy"
             />
             <h3 className="text-xl md:text-2xl text-center font-bold text-gradient">
               iOS 26
@@ -49,7 +51,12 @@ function Highlights() {
             A19 Pro
           </h3>
           <p className="mb-4 ">O chip mais poderoso em um smartphone</p>
-          <img src={A19pro} alt="chip-a18-pro" className="rounded-2xl" />
+          <img
+            src={A19pro}
+            alt="chip-a18-pro"
+            className="rounded-2xl"
+            loading="lazy"
+          />
           <ul className="space-y-3 text-gray-300">
             <li>- CPU 20% mais rápida</li>
             <li>- GPU 25% mais eficiente</li>
@@ -72,6 +79,7 @@ function Highlights() {
             src={shellTitanio}
             alt="shell-titânio"
             className="rounded-2xl w-[80%]"
+            loading="lazy"
           />
         </div>
       </div>

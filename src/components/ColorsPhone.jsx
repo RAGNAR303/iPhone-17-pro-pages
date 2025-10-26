@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Card from "./Card";
 import Button from "./Button";
-import iphoneBlue from "../assets/iphone-blue.jpg";
-import iphoneOrage from "../assets/iphone-orange.jpg";
-import iphoneSilver from "../assets/iphone-silver.jpg";
-import smartphone from "../assets/smartphone.png";
+import iphoneBlue from "../../public/assets/iphone-blue.jpg";
+import iphoneOrage from "../../public/assets/iphone-orange.jpg";
+import iphoneSilver from "../../public/assets/iphone-silver.jpg";
+import smartphone from "../../public/assets/smartphone.png";
 
 function ColorsPhone() {
   const colors = [
@@ -66,6 +66,7 @@ function ColorsPhone() {
               src={colors.find((color) => color.id === selectColor).image}
               alt={colors.name}
               className="max-w-[70%] md:max-w-full max-h-[400px] mx-auto"
+              loading="lazy"
             />
             <div className="absolute bottom-8 left-0 right-0 text-center">
               <div className="px-8 py-4 rounded-full backdrop-blur-md bg-black/40 inline-block">
@@ -107,7 +108,7 @@ function ColorsPhone() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-7" id="Buy">
           {models.map((model, index) => (
             <Card variant={"border"} key={index}>
-              <img className="w-6 h-6" src={smartphone} alt="smartphone" />
+              <img className="w-6 h-6" src={smartphone} alt="smartphone"  loading="lazy"/>
               <h4 className="font-bold ">{model.name}</h4>
               <p className="text-gray-500 text-[14px]">
                 Tela {model.screen} com ProMotion 120Hz e Always-On display
