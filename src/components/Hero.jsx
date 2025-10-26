@@ -6,7 +6,7 @@ function Hero() {
     <section className="relative overflow-hidden h-[300px] md:h-screen ">
       <div className="absolute top-18 bottom-0 left-0 right-0 z-0 ">
         <img
-          className="object-cover opacity-90   md:w-full "
+          className="object-cover opacity-90 w-full  md:w-full "
           src={iphoneHero}
           alt="iphone"
         />

@@ -9,12 +9,12 @@
     }
 
 
-   
+
 
     body,
     html {
         color: #fff;
-        background-color: black;
+        background: #000000;
         font-family: "Inter", sans-serif;
         scroll-behavior: smooth;
         overflow-x: hidden;
