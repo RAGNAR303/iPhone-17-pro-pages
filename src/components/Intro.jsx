@@ -14,9 +14,9 @@ function Intro() {
   ];
 
   return (
-    <section className="py-10 md:py-20 md:px-6" id="Performace">
+    <section className="py-10 px-1 md:py-20 md:px-6" id="Performace">
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-6xl md:text-8xl font-bold mb-6">iPhone 17 Pro</h1>
+        <h1 className="text-5xl md:text-8xl font-bold mb-6">iPhone 17 Pro</h1>
         <p className="text-2xl md:text-4xl mb-4 text-gradient">
           Titânio. Tão forte. Tão leve. Tão Pro.
         </p>
@@ -32,7 +32,7 @@ function Intro() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5 items-center justify-center w-[80%] mx-auto">
         {specs.map((spec, index) => (
           <Card key={index} variant={"default"}>
-            <strong className={`${spec.color} text-4xl`}>{spec.value}</strong>
+            <strong className={`${spec.color} text-2xl md:text-4xl`}>{spec.value}</strong>
             <p className="text-center">{spec.label}</p>
           </Card>
         ))}

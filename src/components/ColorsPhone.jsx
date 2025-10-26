@@ -11,21 +11,21 @@ function ColorsPhone() {
     {
       id: "blue",
       name: "Titânio Azul",
-      image:  iphoneBlue ,
+      image: iphoneBlue,
       color: "bg-blue-500",
       text: "text-blue-500",
     },
     {
       id: "silver",
       name: "Titânio Natural",
-      image:  iphoneOrage ,
+      image: iphoneSilver,
       color: "bg-gray-100",
       text: "text-gray-100",
     },
     {
       id: "orange",
       name: "Titânio Laranja",
-      image: iphoneSilver ,
+      image: iphoneOrage,
       color: "bg-orange-500",
       text: "text-orange-500",
     },
@@ -52,13 +52,20 @@ function ColorsPhone() {
 
   return (
     <section id="Cores" className="px-8">
-      <div className="max-w-6xl mx-auto flex justify-center items-center flex-col mb-12 ">
+      <div className="max-w-6xl mx-auto flex justify-center items-center flex-col mb-12">
+        <h3 className="text-2xl md:text-4xl mb-4 text-gradient text-center ">
+          Escolha sua cor
+        </h3>
+        <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto text-center ">
+          Três acabamentoas em titânio lindos
+        </p>
+
         <div className="relative w-full min-w-3xl">
-          <div className="relative flex items-center justify-center flex-col min-h-[500px]">
+          <div className="relative flex items-center justify-center flex-col min-h-[400px]">
             <img
               src={colors.find((color) => color.id === selectColor).image}
               alt={colors.name}
-              className="max-w-full max-h-[400px] mx-auto"
+              className="max-w-[70%] md:max-w-full max-h-[400px] mx-auto"
             />
             <div className="absolute bottom-8 left-0 right-0 text-center">
               <div className="px-8 py-4 rounded-full backdrop-blur-md bg-black/40 inline-block">

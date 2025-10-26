@@ -45,10 +45,10 @@ function Highlights() {
           </Card>
         </div>
         <Card variant={"default"}>
-          <h3 className="text-xl md:text-2xl font-bold text-gradient">
+          <h3 className="text-xl md:text-2xl font-bold text-gradient ">
             A19 Pro
           </h3>
-          <p className="mb-4">O chip mais poderoso em um smartphone</p>
+          <p className="mb-4 ">O chip mais poderoso em um smartphone</p>
           <img src={A19pro} alt="chip-a18-pro" className="rounded-2xl" />
           <ul className="space-y-3 text-gray-300">
             <li>- CPU 20% mais rápida</li>
@@ -58,7 +58,7 @@ function Highlights() {
           </ul>
         </Card>
         <div className="flex justify-center gap-3 items-center flex-col w-full mt-10">
-          <h3 className="text-3xl md:text-4xl font-bold text-gradient">
+          <h3 className="text-3xl md:text-4xl font-bold text-gradient text-center">
             Estrutura unibody. Eles têm a força.
           </h3>
           <p className="text-center w-[70%]  text-gray-400 ">
@@ -71,7 +71,7 @@ function Highlights() {
           <img
             src={shellTitanio}
             alt="shell-titânio"
-            className="rounded-2xl w-[70%]"
+            className="rounded-2xl w-[80%]"
           />
         </div>
       </div>
