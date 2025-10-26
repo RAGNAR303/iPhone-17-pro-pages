@@ -3,7 +3,7 @@ import iphoneHero from "../assets/hero.jpg";
 
 function Hero() {
   return (
-    <section className="relative overflow-y-hidden h-[300px] md:h-screen ">
+    <section className="relative overflow-hidden h-[300px] md:h-screen ">
       <div className="absolute top-18 bottom-0 left-0 right-0 z-0 ">
         <img
           className="object-cover opacity-90   md:w-full "
@@ -16,7 +16,7 @@ function Hero() {
         <ArrowDownIcon
           size={32}
           weight="bold"
-          class="size-6 bottom-8 absolute left-1/2 z-10 animate-bounce"
+          className="size-6 bottom-8 absolute left-1/2 z-10 animate-bounce"
         />
       </div>
     </section>

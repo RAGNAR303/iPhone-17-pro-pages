@@ -52,7 +52,7 @@ function ColorsPhone() {
 
   return (
     <section id="Cores" className="px-8">
-      <div className="max-w-6xl mx-auto flex justify-center items-center flex-col mb-12">
+      <div className="max-w-full mx-auto flex justify-center items-center flex-col mb-12">
         <h3 className="text-2xl md:text-4xl mb-4 text-gradient text-center ">
           Escolha sua cor
         </h3>

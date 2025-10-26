@@ -58,10 +58,12 @@ function NavBar() {
           )}
         >
           {navLinks.map((link) => (
-            <div className="p-5 border-b-2 mb-2 w-[80%] text-center">
+            <div
+              key={link.id}
+              className="p-5 border-b-2 mb-2 w-[80%] text-center"
+            >
               <a
                 href={link.url}
-                key={link.id}
                 onClick={() => setMobileOpen(false)}
                 className=" hover:text-gray-300 hover:scale-105 duration-300 font-black text-3xl"
               >
