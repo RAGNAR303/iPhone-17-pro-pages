@@ -3,7 +3,7 @@ import React from "react";
 
 function Button({ name, variant = "white", ...props }) {
   const buttonclass = clsx(
-    "px-6 py-2 rounded-3xl text-lg  hover:scale-105 duration-300",
+    "px-6 py-2 rounded-3xl text-lg  hover:scale-105 active:scale-105 duration-300 transition-transform",
     {
       "bg-blue-600 border-2  border-transparent hover:bg-blue-700":
         variant === "blue",
