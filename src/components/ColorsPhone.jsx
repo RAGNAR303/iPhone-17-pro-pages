@@ -88,7 +88,7 @@ function ColorsPhone() {
                 key={cor.id}
                 className={`${cor.color} ${
                   selectColor === cor.id
-                    ? " border-gray-100 scale-[1.05]"
+                    ? " border-gray-100 scale-[1.05] hover:scale-[1.09]  active:scale-[1.05] "
                     : " border-gray-600 "
                 } rounded-full border-2 transition-all duration-300`}
                 onClick={() => setSelectColor(cor.id)}
@@ -98,7 +98,7 @@ function ColorsPhone() {
               <p
                 className={`${
                   selectColor === cor.id ? "text-white" : "text-transparent"
-                } text-2xl font-extrabold`}
+                } text-4xl font-extrabold`}
               >
                 .
               </p>
@@ -108,7 +108,12 @@ function ColorsPhone() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-7 " id="Buy">
           {models.map((model, index) => (
             <Card variant={"border"} key={index}>
-              <img className="w-6 h-6" src={smartphone} alt="smartphone"  loading="lazy"/>
+              <img
+                className="w-6 h-6"
+                src={smartphone}
+                alt="smartphone"
+                loading="lazy"
+              />
               <h4 className="font-bold ">{model.name}</h4>
               <p className="text-gray-500 text-[14px]">
                 Tela {model.screen} com ProMotion 120Hz e Always-On display

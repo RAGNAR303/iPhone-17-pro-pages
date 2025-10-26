@@ -29,7 +29,7 @@ function CamSpecs() {
         <h3 className="text-2xl md:text-4xl mb-10 text-gradient ">
           Sistema de Câmera Pro avançado
         </h3>
-        <p className="text-gray-400">Toda tecnologia em câmeras que só a iPhone tem</p>
+        <p className="text-gray-400">Toda tecnologia em câmeras que só o iPhone tem</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 py-10 items-center text-center justify-center w-[80%] mx-auto">
