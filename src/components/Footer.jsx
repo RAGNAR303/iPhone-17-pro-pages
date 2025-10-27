@@ -25,7 +25,7 @@ function Footer() {
       <div
         className="flex flex-col w-[90%] md:w-[70%] mt-5 "
         data-aos="fade-up"
-        data-aos-duration="1000"
+        data-aos-duration="3000"
       >
         <section className="grid grid-cols-1 md:grid-cols-4 ">
           {sections.map((sections, index) => (
