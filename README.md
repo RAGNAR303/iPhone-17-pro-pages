@@ -50,7 +50,7 @@ Layout moderno, elegante e limpo, inspirado em produto premium.
 
 Responsividade: adaptação para mobile, tablet e desktop.
 
-Seções visuais de destaque: hero image, recursos, depoimentos (se aplicável), galeria de imagens.
+Seções visuais de destaque: hero image, recursos.
 
 Navegação simples, experiência de usuário fluida.
 
