@@ -21,8 +21,12 @@ function Footer() {
   const links = ["Politica de Privacidade", "Termos de uso", "Vendas"];
 
   return (
-    <footer className="bg-gray-800/80 border-t-2 border-gray-800 backdrop-blur-2xl w-full flex items-center justify-center ">
-      <div className="flex flex-col w-[90%] md:w-[70%] mt-5">
+    <footer className="bg-gray-800/80 border-t-2 border-gray-800 backdrop-blur-2xl w-full flex items-center justify-center overflow-y-hidden ">
+      <div
+        className="flex flex-col w-[90%] md:w-[70%] mt-5 "
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <section className="grid grid-cols-1 md:grid-cols-4 ">
           {sections.map((sections, index) => (
             <div key={index} className="flex flex-col gap-3 p-2 md:py-7 ">

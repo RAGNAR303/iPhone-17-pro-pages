@@ -11,7 +11,14 @@ function Card({ variant, ...props }) {
     }
   );
 
-  return <div {...props} className={cardClass}></div>;
+  return (
+    <div
+      {...props}
+      className={cardClass}
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    ></div>
+  );
 }
 
 export default Card;

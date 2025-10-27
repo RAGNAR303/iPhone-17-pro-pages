@@ -10,6 +10,8 @@ function Hero() {
           src={iphoneHero}
           alt="iphone"
           loading="lazy"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         />
       </div>
       <div className="absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/80 "></div>
@@ -18,6 +20,8 @@ function Hero() {
           size={32}
           weight="bold"
           className="size-6 bottom-8 absolute left-1/2 z-10 animate-bounce"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
         />
       </div>
     </section>

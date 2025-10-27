@@ -67,6 +67,8 @@ function ColorsPhone() {
               alt={colors.name}
               className="max-w-[70%] md:max-w-full max-h-[400px] mx-auto"
               loading="lazy"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             />
             <div className="absolute bottom-8 left-0 right-0 text-center">
               <div className="px-8 py-4 rounded-full backdrop-blur-md bg-black/40 inline-block">

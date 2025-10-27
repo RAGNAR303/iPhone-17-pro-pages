@@ -16,7 +16,7 @@ function Button({ name, variant = "white", ...props }) {
   );
 
   return (
-    <button {...props} className={buttonclass}>
+    <button {...props} className={buttonclass} data-aos="zoom-in">
       {name}
     </button>
   );
