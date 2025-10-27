@@ -1,16 +1,62 @@
-# React + Vite
+# iPhone 17 Pro📱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site estático / páginas institucionais responsivas inspiradas no design do iPhone 17 Pro — criado como layout moderno para apresentação, com foco em apresentação visual, navegação fluida e design mobile-first.
 
-Currently, two official plugins are available:
+🔗Link: https://i-phone-17-pro-pages.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Technologies](https://skillicons.dev/icons?i=js,html,css,react,tailwind,vite)](https://skillicons.dev)
 
-## React Compiler
+## 🎯 Visão geral  
+Este projeto tem como objetivo oferecer um conjunto de páginas estilizadas (landing page, catálogo de produtos, destaques visuais) construídas com boas práticas de HTML/CSS, adaptação para dispositivos móveis e layout elegante. Serve como showcase ou protótipo para apresentação de produto ou portfólio.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧰 Tecnologias utilizadas  
+- HTML5 — estrutura semântica das páginas.  
+- CSS3 (incluindo técnicas de responsividade: flexbox, grid, media queries).  
+- (Se usado) CSS Preprocessor ou framework de utilitários (ex: Tailwind CSS) ou estilos personalizados.  
+- Imagens e assets otimizados para web.  
+- Layout mobile-first e adaptativo para telas grandes.  
+- (Opcional) JavaScript simples para interatividade mínima (ex: menu hamburger, sliders) — ajuste se aplicável.
+- Clsx , para criar variações de estilos do mesmo componente.
+- AOS , para criar animações mais interativas
+## 📂 Estrutura do projeto  
 
-## Expanding the ESLint configuration
+├── public/assets/ # imagens, 
+       ├──/icon/ #ícones,
+├── src/screen/ # seçôes do site
+     ├─/components/ # header/footer/card/button
+└── README.md # esta documentação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd iphone-17-pro-pages
+ 
+3. **Instale as dependências:**
+   ```bash
+   npm install
+ 
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+5. **Acesse no navegador:**
+   ```bash
+   http://localhost:5173
+
+
+## ✅ Funcionalidades principais
+
+Layout moderno, elegante e limpo, inspirado em produto premium.
+
+Responsividade: adaptação para mobile, tablet e desktop.
+
+Seções visuais de destaque: hero image, recursos, depoimentos (se aplicável), galeria de imagens.
+
+Navegação simples, experiência de usuário fluida.
+
+Assets otimizados para desempenho da página (imagens comprimidas, web-fonts etc).
+
+## 🧩 Créditos
+
+Projeto foi desenvolvido com base em uma videoaula do Rodolfo Mori do canal DevClub no Youtube.
+Foi para a praticar conceitos de aprimorar portifolio usanso React + Tailwind
