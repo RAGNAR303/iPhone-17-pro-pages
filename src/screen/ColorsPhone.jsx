@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Card from "./Card";
-import Button from "./Button";
+import Card from "../components/Card";
+import Button from "../components/Button";
 import iphoneBlue from "../../public/assets/iphone-blue.jpg";
 import iphoneOrage from "../../public/assets/iphone-orange.jpg";
 import iphoneSilver from "../../public/assets/iphone-silver.jpg";

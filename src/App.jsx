@@ -1,9 +1,9 @@
-import CamSpecs from "./components/CamSpecs";
-import ColorsPhone from "./components/ColorsPhone";
+import CamSpecs from "./screen/CamSpecs";
+import ColorsPhone from "./screen/ColorsPhone";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Highlights from "./components/Highlights";
-import Intro from "./components/Intro";
+import Hero from "./screen/Hero";
+import Highlights from "./screen/Highlights";
+import Intro from "./screen/Intro";
 import NavBar from "./components/NavBar";
 
 function App() {

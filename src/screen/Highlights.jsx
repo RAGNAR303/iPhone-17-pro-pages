@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "../components/Card";
 import titaniumDesign from "../../public/assets/titanium-design.jpg";
 import iosFeatures from "../../public/assets/ios-features.jpg";
 import A19pro from "../../public/assets/A19pro.jpg";

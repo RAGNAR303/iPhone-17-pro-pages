@@ -1,5 +1,5 @@
-import Button from "./Button";
-import Card from "./Card";
+import Button from "../components/Button";
+import Card from "../components/Card";
 
 function Intro() {
   const specs = [
@@ -32,7 +32,9 @@ function Intro() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5 items-center justify-center w-[80%] mx-auto">
         {specs.map((spec, index) => (
           <Card key={index} variant={"default"}>
-            <strong className={`${spec.color} text-2xl md:text-4xl`}>{spec.value}</strong>
+            <strong className={`${spec.color} text-2xl md:text-4xl`}>
+              {spec.value}
+            </strong>
             <p className="text-center">{spec.label}</p>
           </Card>
         ))}

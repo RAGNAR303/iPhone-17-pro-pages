@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React from "react";
+
 
 function Button({ name, variant = "white", ...props }) {
   const buttonclass = clsx(
