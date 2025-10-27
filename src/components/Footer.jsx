@@ -30,7 +30,9 @@ function Footer() {
               <ul className="text-gray-400 text-[13px] flex flex-col font-medium gap-1 ">
                 {sections.links.map((link, Linkindex) => (
                   <li key={Linkindex}>
-                    <a className="hover:text-white">{link}</a>
+                    <a className="hover:text-white active:text-white ">
+                      {link}
+                    </a>
                   </li>
                 ))}
               </ul>
