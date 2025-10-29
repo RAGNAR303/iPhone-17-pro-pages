@@ -38,7 +38,10 @@ Este projeto tem como objetivo oferecer um conjunto de páginas estilizadas (lan
  
 4. **Inicie o servidor de desenvolvimento:**
    ```bash
+   yarn dev       
+       ou
    npm run dev
+    
 5. **Acesse no navegador:**
    ```bash
    http://localhost:5173
