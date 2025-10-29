@@ -4,7 +4,7 @@ import Card from "../components/Card";
 function Intro() {
   const specs = [
     { value: "6.3", label: "Display Super Retina XDR", color: "text-blue-600" },
-    { value: "A18 Pro", label: "Chip mais rápido", color: "text-orange-600" },
+    { value: "A19 Pro", label: "Chip mais rápido", color: "text-orange-600" },
     { value: "48MP", label: "Sistema de câmera", color: "text-blue-600" },
     {
       value: "29h*",
@@ -22,7 +22,7 @@ function Intro() {
         </p>
         <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto ">
           O design mais refinado que já criamos. Titânio de grau aeroespacial.
-          Chip A18 pro
+          Chip A19 pro
         </p>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-16">
