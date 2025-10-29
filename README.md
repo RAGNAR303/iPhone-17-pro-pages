@@ -26,7 +26,10 @@ Este projeto tem como objetivo oferecer um conjunto de páginas estilizadas (lan
      ├─/components/ # header/footer/card/button
 └── README.md # esta documentação
 
-
+## 🚀 Como executar localmente  
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/RAGNAR303/iPhone-17-pro-pages.git
 
 2. **Acesse a pasta do projeto:**
    ```bash
@@ -38,7 +41,10 @@ Este projeto tem como objetivo oferecer um conjunto de páginas estilizadas (lan
  
 4. **Inicie o servidor de desenvolvimento:**
    ```bash
+   yarn dev       
+       ou
    npm run dev
+    
 5. **Acesse no navegador:**
    ```bash
    http://localhost:5173
