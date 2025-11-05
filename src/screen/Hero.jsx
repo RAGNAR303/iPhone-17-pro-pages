@@ -20,7 +20,7 @@ function Hero() {
         autoPlay
         muted
         loop
-        className="w-full h-screen absolute -mt-50 md:mt-20  md:object-cover"
+        className="w-full h-screen absolute -mt-40 md:mt-20  md:object-cover"
       >
         <source src={backgroundVideo} type="video/mp4" />
       </video>
