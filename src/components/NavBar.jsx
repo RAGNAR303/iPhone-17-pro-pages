@@ -29,7 +29,7 @@ function NavBar() {
       >
         <div
           className="flex items-center justify-between w-[95%] mx-auto 
-         bg-black/50 backdrop-blur-md rounded-2xl mt-1 px-2 border-1 border-gray-900 "
+         bg-black/50 backdrop-blur-md rounded-2xl mt-1 px-2 border-1 border-gray-700 "
         >
           <AppleLogoIcon className="text-4xl" weight="fill" />
           <nav className="mx-auto px-4 py-2 hidden  md:flex items-center justify-center gap-8">
