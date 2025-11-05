@@ -57,11 +57,11 @@ function Highlights() {
             className="rounded-2xl"
             loading="lazy"
           />
-          <ul className="space-y-3 text-gray-300">
-            <li>- CPU 20% mais rápida</li>
-            <li>- GPU 25% mais eficiente</li>
-            <li>- Neural Engine com 16 núcleos </li>
-            <li>- Ray Tracing acelerado por hardware</li>
+          <ul typeof="circle" className="space-y-3 text-gray-300">
+            <li> CPU 20% mais rápida</li>
+            <li> GPU 25% mais eficiente</li>
+            <li> Neural Engine com 16 núcleos </li>
+            <li> Ray Tracing acelerado por hardware</li>
           </ul>
         </Card>
         <div className="flex justify-center gap-3 items-center flex-col w-full mt-10">
