@@ -12,10 +12,10 @@ Este projeto tem como objetivo oferecer um conjunto de páginas estilizadas (lan
 ## 🧰 Tecnologias utilizadas  
 - HTML5 — estrutura semântica das páginas.  
 - CSS3 (incluindo técnicas de responsividade: flexbox, grid, media queries).  
-- (Se usado) CSS Preprocessor ou framework de utilitários (ex: Tailwind CSS) ou estilos personalizados.  
+- CSS Preprocessor ou framework de utilitários (ex: Tailwind CSS) ou estilos personalizados.  
 - Imagens e assets otimizados para web.  
 - Layout mobile-first e adaptativo para telas grandes.  
-- (Opcional) JavaScript simples para interatividade mínima (ex: menu hamburger, sliders) — ajuste se aplicável.
+- JavaScript simples para interatividade mínima.
 - Clsx , para criar variações de estilos do mesmo componente.
 - AOS , para criar animações mais interativas
 ## 📂 Estrutura do projeto  
